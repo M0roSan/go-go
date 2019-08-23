@@ -10,19 +10,19 @@ import (
 	
 )
 
-// response struct to map the entire response
+// Response struct to map the entire response
 type Response struct {
 	Name    string    `json:"name"`
 	Pokemon []Pokemon `json:"pokemon_entries"`
 }
 
-// a pokemon struc to map every pokemon to
+// Pokemon struc to map every pokemon to
 type Pokemon struct {
 	EntryNo int            `json:"entry_number"`
 	Species PokemonSpecies `json:"pokemon_species"`
 }
 
-// a struct to map our pokemon species which includes its name
+// PokemonSpecies a struct to map our Pokemon species which includes its name
 type PokemonSpecies struct {
 	Name string `json:"name"`
 }
