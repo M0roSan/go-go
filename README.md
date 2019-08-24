@@ -6,3 +6,4 @@ Practicing Go
 - webserver: Simple webserver with TLS
 - goorm: Simple API with CRUD ops, interacting with sqlite3 db
 - gomysql: Using MySQL
+- redis-op: Go with Redis
