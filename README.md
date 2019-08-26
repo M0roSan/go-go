@@ -7,3 +7,4 @@ Practicing Go
 - goorm: Simple API with CRUD ops, interacting with sqlite3 db
 - gomysql: Using MySQL
 - redis-op: Go with Redis
+- go-test: Testing with Go
