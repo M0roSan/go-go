@@ -8,3 +8,4 @@ Practicing Go
 - gomysql: Using MySQL
 - redis-op: Go with Redis
 - go-test: Testing with Go
+- aes-encrypt: AES encryption and decryption
