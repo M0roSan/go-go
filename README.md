@@ -9,4 +9,5 @@ Practicing Go
 - redis-op: Go with Redis
 - go-test: Testing with Go
 - aes-encrypt: AES encryption and decryption
-- jet-rest: REST api using JWT(JSON Web Tokens)
+- jwt-rest: REST api using JWT(JSON Web Tokens)
+- gin-web: Go web applications and microservices using Gin
