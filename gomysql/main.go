@@ -37,7 +37,7 @@ func main() {
 	}
 
 	var tag Tag
-	err = db.QueryRow("SELECT id, name FROM tags WHERE id = ?", 2).Scan(&tag.ID, &tag.Name)
+	err = db.QueryRow("SELECT id, name FROM tags WHERE id = ?", 1).Scan(&tag.ID, &tag.Name)
 	if err != nil {
 		panic(err.Error())
 	}
