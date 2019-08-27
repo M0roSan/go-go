@@ -1,6 +1,6 @@
 Go web applications and microservices using Gin
 
-###Application functoinality
+### Application functoinality  
 The application we’ll build is a simple article manager. This application should:
 
 - Let users register with a username and a password (non-logged in users only),
